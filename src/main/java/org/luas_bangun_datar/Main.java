@@ -5,7 +5,6 @@ package org.luas_bangun_datar;
 import java.util.Scanner;
 
 public class Main {
-    public class LuasBangunDatar {
         private static int LuasPersegi(int s) {
             return s * s;
         }
@@ -28,26 +27,24 @@ public class Main {
         System.out.print("Pilih Bangun Datar : ");
         int pilih = input.nextInt();
         switch (pilih) {
-            case 1:
+            case 1 -> {
                 System.out.print("Masukkan sisi : ");
                 int sisi = input.nextInt();
                 System.out.println("Luas Persegi : " + LuasBangunDatar.LuasPersegi(sisi));
-                break;
-            case 2:
+            }
+            case 2 -> {
                 System.out.print("Masukkan alas : ");
                 int alas = input.nextInt();
                 System.out.print("Masukkan tinggi : ");
                 int tinggi = input.nextInt();
                 System.out.println("Luas Segitiga : " + LuasBangunDatar.LuasSegitiga(alas, tinggi));
-                break;
-            case 3:
+            }
+            case 3 -> {
                 System.out.print("Masukkan jari-jari : ");
                 int jari = input.nextInt();
                 System.out.println("Luas Lingkaran : " + LuasBangunDatar.LuasLingkaran(jari));
-                break;
-            default:
-                System.out.println("Pilihan tidak ada");
-                break;
+            }
+            default -> System.out.println("Pilihan tidak ada");
         }
     }
 }
