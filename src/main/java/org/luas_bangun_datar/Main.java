@@ -1,5 +1,5 @@
 /* Program Mencari Luas bangun datar khususnya untuk (Persegi, Segitiga, dan Lingkaran)
- author: @vidifadilakbar, @jordhi404, Isan-1302194081 */
+ author: vidifadilakbar, jordhi404, Isan-1302194081, akbar0897 */
 
 package org.luas_bangun_datar;
 import java.util.Scanner;
