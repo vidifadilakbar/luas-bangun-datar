@@ -38,7 +38,7 @@ public class Main {
                 int alas = input.nextInt();
                 System.out.print("Masukkan tinggi : ");
                 int tinggi = input.nextInt();
-                System.out.println("Luas Segitiga : " + LuasBangunDatar.LuasSegitiga(alas, tinggi));
+                System.out.println("Luas Segitiga : " + LuasBangunDatar.LuasSegitiga(alas));
                 break;
             case 3:
                 System.out.print("Masukkan jari-jari : ");
