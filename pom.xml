@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>luasbangundatar</groupId>
   <artifactId>luasbangundatar</artifactId>
-  <version>1.0.0</version>
+  <version>0.0.1</version>
     <build>
         <plugins>
             <plugin>
