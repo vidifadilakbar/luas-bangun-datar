@@ -5,7 +5,7 @@ package org.luas_bangun_datar;
 import java.util.Scanner;
 
 public class Main {
-    public static class LuasBangunDatar {
+    public static class LuasBangunDitir {
         private static int LuasPersegi(int s) {
             return s * s;
         }
@@ -21,8 +21,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Pilih Bangun Datar :");
-        System.out.println("1. Persegi");
+        System.out.println("Pilih Bangun Datar :")
+        System.out.println("1. Persegi")
         System.out.println("2. Segitiga");
         System.out.println("3. Lingkaran");
         System.out.print("Pilih Bangun Datar : ");
