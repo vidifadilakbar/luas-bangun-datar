@@ -5,7 +5,7 @@ package org.luas_bangun_datar;
 import java.util.Scanner;
 
 public class Main {
-    public static class LuasBangunDitir {
+    public static class LuasBangunDitir {;;
         private static int LuasPersegi(int s) {
             return s * s;
         }
